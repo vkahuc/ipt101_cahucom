@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>php Form Activity</title>
+
+<style>
+    h1{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    form{
+        font-family: Verdana;
+    }
+
+    #fName {
+        border-style:solid;
+        border-spacing: 5px;
+        padding: 5px;
+    }
+    #lName {
+        border-style:solid;
+        border-spacing: 5px;
+        padding: 5px;
+    }
+    #email {
+        border-style:solid;
+        border-spacing: 5px;
+        padding: 5px;
+    }
+    #userN {
+        border-style:solid;
+        border-spacing: 5px;
+        padding: 5px;
+    }
+    #pwd {
+        border-style:solid;
+        border-spacing: 5px;
+        padding: 5px;
+    }
+    #cPwd {
+        border-style:solid;
+        border-spacing: 5px;
+        padding: 5px;
+    }
+
+    #submit {
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: white;
+        background-color: blue;
+        border-radius: 5px;
+        padding: 5px;
+    }
+</style>
+</head>
+<body>
+    <h1>PHP FORM ACTIVITY</h1>
+    <form action="connect.php" method="post">
+        Firstname: <br><input type="text" id="fName" name="fName"><br>
+        Lastname: <br><input type="text" id="lName" name="lName"><br>
+        Email: <br><input type="email" id="email" name="email"><br>
+        Username: <br><input type="text" id="userN" name="userN"><br>
+        Password: <br><input type="password" id="pwd" name="pwd"><br>
+        Confrim Password: <br><input type="password" id="cPwd" name="cPwd"><br><br>
+        <input type="submit" value="submit" id="submit">
+    </form>
+</body>
+</html>
